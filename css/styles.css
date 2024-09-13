@@ -12660,15 +12660,9 @@ input[type=radio] {
 
 
 .pic-ctn {
-  width: 100vw;
+  width: 150vw;
   height: 200px;
   display: none;
-}
-
-@media (max-width: 991.5px) {
-  .pic-ctn {
-    display: flex;
-  }
 }
 
 @keyframes display {
@@ -12696,9 +12690,16 @@ input[type=radio] {
 
 .pic-ctn {
   position: relative;
-  width: 50vw;
+  width: 100vw;
   height: 300px;
   margin-top: 15vh;
+}
+
+@media (max-width: 991.5px) {
+  .pic-ctn {
+    display: flex;
+    width: 70%;
+  }
 }
 
 .pic-ctn > img {
